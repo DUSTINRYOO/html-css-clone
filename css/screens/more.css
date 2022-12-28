@@ -27,6 +27,7 @@
 }
 .more__suggestion__contents {
   display: flex;
+  justify-content: space-between;
 }
 
 .more__suggestion__icons {
@@ -34,7 +35,6 @@
   flex-direction: column-reverse;
   align-items: center;
   font-size: 20px;
-  margin-right: 70px;
 }
 .more__suggestion__icons i {
   font-size: 40px;
