@@ -1,6 +1,6 @@
 #chat__screen {
-  background-color: rgb(182, 245, 253);
-  height: 11000vh;
+  background-color: var(--color2);
+  height: 300vh;
 
   display: flex;
   flex-direction: column;
@@ -14,7 +14,7 @@
   position: fixed;
   width: 100%;
   box-sizing: border-box;
-  background-color: rgb(182, 245, 253);
+  background-color: var(--color2);
 }
 
 @keyframes FadeIn {
@@ -165,6 +165,7 @@
 }
 
 .reply:focus-within input {
-  width: 95vw;
-  transform: translateX(-8%);
+  width: 100%;
+
+  transform: translateX(-5%);
 }
