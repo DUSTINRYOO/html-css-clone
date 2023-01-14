@@ -3,7 +3,8 @@
   z-index: 99;
   height: 100vh;
   width: 100vw;
-  background-color: var(--yellow);
+  background-color: var(--color2);
+  color: var(--color1);
   display: flex;
   top: 0;
   justify-content: center;
